@@ -4,12 +4,12 @@
 
 ## Add Radix-UI && TailwindCSS
 
-集成了 TailwindCSS 和 radix-themes，使两个 ui 库不会冲突。
+集成了 TailwindCSS 和 radix-themes，并使两个 ui 库不会冲突。
+Integrated TailwindCSS and radix-themes, and prevent conflicts between the two UI libraries.
 
-### Update NPM packages
+### Get started
 
 ```shellscript
-npm update
-npm i
-npm run dev
+npx create-remix@latest --template daisnkzy/tw-radix
+
 ```
